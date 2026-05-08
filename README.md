@@ -1,7 +1,16 @@
 # COBRA — Fair Dataset Distillation via Cross-Group Barycenter Alignment
 
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen)
+[![ICML 2026](https://img.shields.io/badge/ICML-2026-blue)](https://icml.cc/)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.00185-b31b1b.svg)](https://arxiv.org/abs/2605.00185)
+
+
 Official PyTorch implementation of
-**"Fair Dataset Distillation via Cross-Group Barycenter Alignment"** (ICML 2026).
+**"[Fair Dataset Distillation via Cross-Group Barycenter Alignment](https://arxiv.org/pdf/2605.00185)"** (ICML 2026).
+
 
 COBRA distills a small synthetic training set whose class-conditional
 representation matches the **uniform Wasserstein-style barycenter of the
@@ -187,13 +196,14 @@ yields lower Equalized-Odds gaps without sacrificing accuracy.
 ## 7. Citation
 
 ```bibtex
-@inproceedings{cobra2026,
-  title     = {Fair Dataset Distillation via Cross-Group Barycenter Alignment},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
-  year      = {2026}
+@article{moslemi2026fair,
+  title={Fair Dataset Distillation via Cross-Group Barycenter Alignment},
+  author={Moslemi, Mohammad Hossein and Dashtbayaz, Nima Hosseini and Mei, Zhimin and Wang, Boyu and Ghaddar, Bissan},
+  journal={arXiv preprint arXiv:2605.00185},
+  year={2026}
 }
 ```
+
 
 ---
 
