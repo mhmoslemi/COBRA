@@ -212,6 +212,5 @@ yields lower Equalized-Odds gaps without sacrificing accuracy.
 This codebase builds on the public implementations of
 [DC/DM](https://github.com/VICO-UoE/DatasetCondensation),
 [CAFE](https://github.com/kaiwang960112/CAFE),
-[IDC](https://github.com/snu-mllab/Efficient-Dataset-Condensation),
-and [FairDD](https://github.com/dq-coder/FairDD). We thank the original
+and [IDC](https://github.com/snu-mllab/Efficient-Dataset-Condensation). We thank the original
 authors for releasing their code.
