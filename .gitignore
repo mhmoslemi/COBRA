@@ -1,0 +1,50 @@
+# Byte-code / cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artefacts
+*.log
+*.out
+logs/
+
+# Datasets and experiment outputs
+data/
+result/
+results/
+checkpoints/
+*.pt
+*.pth
+*.npz
+
+# Visualisations and archives
+T-SNE/
+Archive/
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# Stale folders from prior layouts
+old/
+old*/
+_extra_code/
